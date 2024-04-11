@@ -160,6 +160,15 @@ main {
     justify-content: center;
 }
 
+#times {
+    background: url('../images/dublin-city.webp') no-repeat top center / cover;
+    /* handles responivility withiut media queries*/
+    display:flex;
+    flex-wrap: wrap;
+}
+    
+
+
 /* Footer */
 #social-networks {
     text-align: center;
