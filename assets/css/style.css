@@ -1,4 +1,4 @@
-/* Google fonts import */
+/* MONIKA's * Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser */
@@ -161,12 +161,33 @@ main {
 }
 
 #times {
-    background: url('../images/dublin-city.webp') no-repeat top center / cover;
-    /* handles responivility withiut media queries*/
-    display:flex;
+    background: url('../images/dublin-city.webp') no-repeat center / cover;
+    /* Handles responivility withiut media query*/
+    display: flex;
     flex-wrap: wrap;
 }
-    
+
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 15px;
+    text-align: center;
+    /* This will not wrap on screens of less than 400px wide.
+    Each div will expand to fill the available space on its row */
+    flex-basis: 200px;
+    flex-grow: 1;
+    /* Creates a grid of meetup time divs over the background image */
+    border: 2px solid white;
+}
+
+#times h3 {
+
+    /* Override the heading colour set in general styles */
+
+    color: #fafafa;
+
+}
 
 
 /* Footer */
@@ -253,14 +274,15 @@ main {
     }
 }
 
-@media screen and (min-width: 1200px) {    
+@media screen and (min-width: 1200px) {
+
     /* Reasons section */
     #benefits {
         display: flex;
         flex-direction: row;
     }
 
-    #benefits > div {
+    #benefits>div {
         flex: 1;
     }
 
@@ -272,11 +294,11 @@ main {
         order: 1;
     }
 
-    #benefits-mental > div {
+    #benefits-mental>div {
         align-self: flex-start;
     }
 
-    #benefits-physical > div {
+    #benefits-physical>div {
         align-self: flex-end;
     }
 }
