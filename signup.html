@@ -53,7 +53,7 @@
         </label>
         <nav>
             <ul id="menu">
-                <li><a href="index.html" >Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="signup.html" class="active">Sign Up</a></li>
             </ul>
@@ -65,7 +65,35 @@
 
     <!-- Main content -->
 
-    <main>Main content</main>
+    <main>
+        <section id="signup">
+            <form id="signup-form" method="post" action="https://formdump.codeinstitute.net">
+                <h2><i class="fa-solid fa-heart-pulse"></i>"Let's get you signed up!"</h2>
+                <label for= "first-name">First Name</label>
+                <input type="text" name="first_name" id="first-name" class="text-input" required>
+                <br>
+                <label for= "last-name">Last Name</label>
+                <input type="text" name="last_name" id="last-name" class="text-input" required>
+                <br>
+                <label for= "email-address">Email Address</label>
+                <input type="email" name="email_address" id="email-address" class="text-input" required>
+                <br>
+
+                <div class="radio-buttons" >
+                    <label for="road">Road</label>
+                    <input type="radio" name="running_preferences" id="road" value="road" required checked>
+                    <label for="trail">Trail</label>
+                    <input type="radio" name="running_preferences" id="trail" value="trail" required checked>
+                    <label for="both">Both</label>
+                    <input type="radio" name="running_preferences" id="both" value="both" required checked>
+                    </div>
+                  
+                    <button type="submit" class="join-button">Let's Run!</button>
+            </form>
+
+        </section>
+    </main>
+
 
     <!-- Footer -->
 
@@ -82,7 +110,8 @@
                 </a>
             </li>
             <li>
-                <a href="https://youtube.com/" target="_blank" rel="noopener" aria-label="visit our YouTube page(opens in a new tab)"><i class="fa-brands fa-youtube"></i>
+                <a href="https://youtube.com/" target="_blank" rel="noopener"
+                    aria-label="visit our YouTube page(opens in a new tab)"><i class="fa-brands fa-youtube"></i>
                 </a>
             </li>
             <li>
