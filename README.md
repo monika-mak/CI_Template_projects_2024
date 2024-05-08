@@ -4,7 +4,7 @@
 
 Link to deployed site: [Time Master](https://monika-mak.github.io/time_master_PP1/)
 
-![Am I responsive](readme_documents/responsive.png)
+![Am I responsive](images/responsive.png)
 
 
 Welcome to the Time Master website. This platform is designed for individuals who often find themselves saying, "there are never enough hours in the day." It aims to tackle common productivity issues by addressing the excuses we tell ourselves, providing a support system through powerful tips and insights for better time management. 
